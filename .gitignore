@@ -26,6 +26,12 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Saved models
+# These files are related to the trained models, which are pickled object, 
+# that are now saved in another and more appropriate place
+model/
+test/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
